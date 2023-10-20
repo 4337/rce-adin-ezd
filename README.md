@@ -217,8 +217,8 @@ lub "Web Application Firewall".
 </li>   
 </ol>
 <h3 style="margin-bottom:5px;">Linki</h3>
-<a href="./EXP" target="_blank">Exploit</a><br/>
-<a href="./RES/ezd.AddIn.Monitor.exe.config" target="_blank">Przykładowy plik konfiguracyjny z częsciową mitygacją dla RCE</a>
+<a href="https://github.com/4337/rce-adin-ezd/tree/main/EXP" target="_blank">Exploit</a><br/>
+<a href="https://github.com/4337/rce-adin-ezd/blob/main/RES/ezd.AddIn.Monitor.exe.config" target="_blank">Przykładowy plik konfiguracyjny z częsciową mitygacją dla RCE</a>
 <h3 style="margin-bottom:5px;">Demo</h3>
 <a href="https://www.youtube.com/watch?v=OVGzOnTy-BM" target="_blank">Ezd: URI Handler Remote Code Execution</a>
 <h3 style="margin-bottom:5px;">Wnioski</h3>
