@@ -220,7 +220,7 @@ lub "Web Application Firewall".
 <a href="./EXP" target="_blank">Exploit</a><br/>
 <a href="./RES/ezd.AddIn.Monitor.exe.config" target="_blank">Przykładowy plik konfiguracyjny z częsciową mitygacją dla RCE</a>
 <h3 style="margin-bottom:5px;">Demo</h3>
-yutub
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OVGzOnTy-BM?si=5Y43_6VteBzg2Z7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h3 style="margin-bottom:5px;">Wnioski</h3>
 Nie napiszę nic nowego jeśli napiszę, że instalacje wtyczki, pluginu lub innego rozszerzenia aplikacji powinny poprzedzić testy bezpieczeństwa.
 Problem w tym, że nie każdy może sobie na to pozwolić,  w takim wypadku powinniśmy przynajmniej postarać się ocenić reputacje takiego rozwiązania oraz 
@@ -246,5 +246,5 @@ od naszego umiejscowienia w przestrzeni i czasie możemy mieć większy lub mnie
 <h3 style="margin-bottom:5px;">Oś czasu</h3>
 14.09.2023 - Zgłoszenie podatności do PUW<br/>
 29.09.2023 - Ponowne zgłoszenie podatności do PUW za pośrednictwem Nask<br/>
-14.11.2023 - Publikcja
+20.10.2023 - Publikcja
 </body>
