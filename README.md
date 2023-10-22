@@ -202,7 +202,7 @@ no i  pozostaje jeszcze kwestia ataków MiTM.
 <h4 style="margin-bottom:5px;">Workaround / Virtual Patching</h4>
 <ol>
 <li>
-Zablokowanie wychodzącego ruchu SMB (porty docelowe:137-139 UDP i TCP) z serwera EZD. Blokujemy możliwość nawiązywania połączeń SMB ze wszystkimi adresami IP/DNS, poza tymi, które są z jakiegoś powodu niezbędne do prawidłowej pracy systemu.
+Zablokowanie wychodzącego ruchu SMB (porty docelowe:445 TCP, 137-139 UDP i TCP) z serwera EZD. Blokujemy możliwość nawiązywania połączeń SMB ze wszystkimi adresami IP/DNS, poza tymi, które są z jakiegoś powodu niezbędne do prawidłowej pracy systemu.
 W ten sposób eliminujemy możliwość wykrzystania ścieżek UNC do zadalnych zasobów SMB w przypadku podatności "Arbitrary File Download".<br/>
 Oczywiście atakujący może w takim przypadku nadal wykorzystać ścieżki UNC w celu pobrania plików serwera np. za pomocą takiego payloadu: "\\\\localhost\\C$\\WINDOWS\\win.ini",<br/>
 ale nie będzie wstanie wykorzystać własnego serwera SMB w celu ominięcia mitygacji bazującej na pliku konfiguracyjnym w przypadku podatności RCE w Ezd.AddIn.
