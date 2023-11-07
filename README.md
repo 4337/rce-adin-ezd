@@ -33,11 +33,10 @@ nie tylko mogła zostać uruchomiona bez wiedzy użytkownika, ale także pobrana
 Same pluginy czy rozszerzenia do przeglądarek też funkcjonują w nieco bezpieczniejszy sposób, są tak jak większość procesów przeglądarki sandboxowane, 
 mają definiowane uprawnienia w plikach manifestu, czy w końcu wymagają potwierdzenia uruchomienia na stronie - 
 tak jak miało to miejsce z wtyczką Java, zanim popadła w całkowitą "niesławę".
-Rozszerzenia aplikacji w postaci pseduo-protokołów URI również wymagają potwierdzenia od użytkownika, zanim zostaną uruchomione.
+Rozszerzenia aplikacji w postaci pseduo-protokołów URI zazwyczaj również wymagają potwierdzenia od użytkownika, zanim zostaną uruchomione.
 Wyjątkiem jest tu proces Explorer.exe - co jest zrozumiałe, ponieważ w nim i tak uruchamia się większość aplikacji - oraz same przeglądarki www, ale tylko 
 w przypadku gdy rozszerzenie (URI) nie jest uruchamiane programowo, to znaczy, użytkownik ręcznie wpisuje taki URI w pasek adresu lub gdy użytkownik zaznaczy opcje 
-aby wybrana witryna zawsze uruchamiała dany odnośnik bez wcześniejszego powiadamiania, jest jeszcze jeden przypadek związany z ezd:\\ kiedy uruchomienie rozszerzenia nie wymaga 
-uprzedniego potwierdzenia przez użytkownika, ale pozostawię go dla siebie :).
+aby wybrana witryna zawsze uruchamiała dany odnośnik bez wcześniejszego powiadamiania.
 Kolejna różnica występuje w samych komunikatach generowanych przez aplikacje przed uruchomieniem rozszerzenia, przeglądarki www są w tej materii nieco bardziej umiarkowane, a na przykład
 aplikacje z pakietu office tworzą komunikaty, w których od razu informują o "niebezpieczeństwie i końcu świata" - które podejście jest lepsze? Nie wiem, nie wiem, czy 
 ma to większe znaczenie, ponieważ tu właśnie pojawia się kwestia zaufania, w tym przypadku zaufania do rozszerzenia. 
