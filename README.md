@@ -37,8 +37,8 @@ Rozszerzenia aplikacji w postaci pseduo-protokołów URI zazwyczaj również wym
 Wyjątkiem jest tu proces Explorer.exe - co jest zrozumiałe, ponieważ w nim i tak uruchamia się większość aplikacji - oraz same przeglądarki www, ale tylko 
 w przypadku gdy rozszerzenie (URI) nie jest uruchamiane programowo, to znaczy, użytkownik ręcznie wpisuje taki URI w pasek adresu lub gdy użytkownik zaznaczy opcje 
 aby wybrana witryna zawsze uruchamiała dany odnośnik bez wcześniejszego powiadamiania. 
-Jest również cały szereg aplikacji, które nie informują o potencjalnym zagrożeniu związanym z odsyłaczami 3rd party URI, 
-jedną z nich jest na przykład Mozilla Thunderbird i w tym przypadku ta podatność to typowy "One-click vulnerability".
+Jest również cały szereg aplikacji, które nie informują o potencjalnym zagrożeniu związanym z odsyłaczami "3rd party" URI.
+Jedną z nich jest na przykład Mozilla Thunderbird i w takich przypadkach ta podatność to typowy "One-click exploit".
 Kolejna różnica występuje w samych komunikatach generowanych przez aplikacje przed uruchomieniem rozszerzenia, przeglądarki www są w tej materii nieco bardziej umiarkowane, a na przykład
 aplikacje z pakietu office tworzą komunikaty, w których od razu informują o "niebezpieczeństwie i końcu świata" - które podejście jest lepsze? Nie wiem, nie wiem, czy 
 ma to większe znaczenie, ponieważ tu właśnie pojawia się kwestia zaufania, w tym przypadku zaufania do rozszerzenia. 
