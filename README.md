@@ -222,7 +222,7 @@ lub "Web Application Firewall".
 <a href="https://github.com/4337/rce-adin-ezd/tree/main/EXP" target="_blank">Exploit</a><br/>
 <a href="https://github.com/4337/rce-adin-ezd/blob/main/RES/ezd.AddIn.Monitor.exe.config" target="_blank">Przykładowy plik konfiguracyjny z częsciową mitygacją dla RCE</a>
 <h3 style="margin-bottom:5px;">Demo</h3>
-<a href="https://www.youtube.com/watch?v=OVGzOnTy-BM" target="_blank">Ezd: URI Handler Remote Code Execution</a>
+<a href="https://www.youtube.com/watch?v=OVGzOnTy-BM" target="_blank">Ezd: URI Handler Remote Code Execution</a><br/>
 <a href="https://www.youtube.com/watch?v=GR-uRHsK5kY" target="_blank">Ezd: URI Handler Remote Code Execution (Thunderbird One-Click)</a>
 <h3 style="margin-bottom:5px;">Wnioski</h3>
 Nie napiszę nic nowego jeśli napiszę, że instalacje wtyczki, pluginu lub innego rozszerzenia aplikacji powinny poprzedzić testy bezpieczeństwa.
