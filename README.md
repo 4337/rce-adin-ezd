@@ -33,7 +33,7 @@ nie tylko mogła zostać uruchomiona bez wiedzy użytkownika, ale także pobrana
 Same pluginy czy rozszerzenia do przeglądarek też funkcjonują w nieco bezpieczniejszy sposób, są tak jak większość procesów przeglądarki sandboxowane, 
 mają definiowane uprawnienia w plikach manifestu, czy w końcu wymagają potwierdzenia uruchomienia na stronie - 
 tak jak miało to miejsce z wtyczką Java, zanim popadła w całkowitą "niesławę".
-Rozszerzenia aplikacji w postaci pseduo-protokołów URI zazwyczaj również wymagają potwierdzenia od użytkownika, zanim zostaną uruchomione. 
+Rozszerzenia aplikacji w postaci pseduo-protokołów URI zazwyczaj również wymagają potwierdzenia od użytkownika zanim zostaną uruchomione. 
 Wyjątkiem jest tu proces Explorer.exe - co jest zrozumiałe, ponieważ w nim i tak uruchamia się większość aplikacji - oraz same przeglądarki www, ale tylko 
 w przypadku gdy rozszerzenie (URI) nie jest uruchamiane programowo, to znaczy, użytkownik ręcznie wpisuje taki URI w pasek adresu lub gdy użytkownik zaznaczy opcje 
 aby wybrana witryna zawsze uruchamiała dany odnośnik bez wcześniejszego powiadamiania. 
